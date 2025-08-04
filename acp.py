@@ -19,7 +19,7 @@ def printPowerSet(set, SetSize):
 size = int(input("Enter array size: "))
 set = []
 for i in range (0, size):
-    n = (int) (input("Enter element: "))
+    n = (input("Enter element: "))
     set.append(n)
 
 printPowerSet(set, len(set))
